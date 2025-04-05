@@ -1,0 +1,6 @@
+{
+  "_purpose": "Stores optional, project-specific command definitions, sequences, or metadata for potential future custom tooling. It serves as a placeholder and documentation within the current MVP scope.",
+  "_usage_notes": "This file is optional for the current MVP and is not actively consumed by existing scripts (e.g., package.json scripts, startup.sh). It might be read by custom Node.js or shell scripts developed later to define complex command sequences or project-specific configurations. Adding content here currently has no functional impact on the application.",
+  "_example_structure": "{\n  // -- Example Future Structure --\n  // \"test_and_build\": {\n  //   \"description\": \"Run linters, tests, and then create a production build.\",\n  //   \"sequence\": [\n  //     \"npm run lint\",\n  //     \"npm run test\", // Assuming a test script exists\n  //     \"npm run build\"\n  //   ],\n  //   \"requires_env\": [\"NODE_ENV=production\"] // Example environment variable requirement\n  // },\n  // \"deploy_staging\": {\n  //   \"description\": \"Builds and deploys the application to the staging environment.\",\n  //   \"script\": \"./scripts/deploy.sh --env=staging\" // Example calling a custom script\n  // }\n}",
+  "custom_commands": {}
+}
